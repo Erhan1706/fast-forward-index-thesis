@@ -1,0 +1,72 @@
+Reduction
+Perform query reduction in the given queries. Try to retain as much meaning as possible from the original query even if it comes at the cost of smaller reductions. Answer with only the reduced query nothing else. Here are some examples: 
+
+Arguana
+Perform query reduction in the following argument, retain as much meaning and logic from the argument as possible even if it comes at the cost of a smaller reduction. Answer with only the reduced query nothing else. Here are some examples: 
+Q: the foetus feels pain partial birth abortion is disgusting like all abortions it involves the killing of an unborn child but unlike first trimester abortions there is no doubt that the foetus can feel pain by the third trimester 1 the procedure involves sticking a pair of scissors into a baby s brain enlarging the hole sucking the brain out with a catheter and then crushing the skull it is entirely unacceptable to do this to a living human being psychological damage to the mother as a result of rape or teenage pregnancy or depression is in the end less significant than the physical damage death caused to the child 1 lee susan j et al fetal pain a systematic multidisciplinary review of the evidence journal of the american medical association vol 294 8 2005
+R: the fetus feels pain during partial birth abortion which is disgusting as it involves killing an unborn child by the third trimester, the fetus undoubtedly feels pain. The procedure involves sticking scissors into the brain, enlarging the hole, sucking out the brain with a catheter, and crushing the skull. It is unacceptable to do this to a living human being. Psychological damage to the mother is less significant than the physical damage and death caused to the child
+Q: a well implemented progressive taxation scheme serve to promote economic growth progressive taxation can serve very effectively to increase the economic welfare and development of societies it does so in three ways first it lifts the poor out of poverty by redistributing the tax burden from them onto the wealthy who are more able to pay and gives them more disposable income to put back into the economy which increases the velocity of money in the system increasing growth 1 second workers will be more likely to work harder since they will feel the system is more equitable perceptions of fairness are very important to individuals people will still work and save since they will want the goods and services they always did in the presence of progressive taxation and will thus not be less motivated as detractors of progressive systems suggest third progressive taxes serve as an automatic stabilizer in the event of recessions and temporary downturns in the market in the sense that a loss of wages due to unemployment or wage cuts places an individual in a lower tax bracket dampening the blow of the initial income loss the american economy is a perfect example of how progressive taxation promotes broader economic growth data shows that average yearly growth has been lessened since the 1950s after the reduction in progressively in the tax system in the 1950s annual growth was 4 1 while in the 1980s when progressively in taxes fell dramatically growth was only 3 2 clearly a progressive tax regime is best for workers and the economy generally 1 boxx t william and gary quinlivan the cultural context of economics and politics lanham university press of america 1994 2 batra ravi the great american deception what politicians won t tell you about our economy and your future new york john wiley and sons 1996
+R: A well-implemented progressive taxation scheme promotes economic growth and welfare by lifting the poor out of poverty, encouraging fair work ethics, and acting as an automatic stabilizer during recessions. Progressive taxation redistributes the tax burden from the poor to the wealthy, increasing the poor's disposable income and the velocity of money. Workers feel the system is fairer and remain motivated. During downturns, lower tax brackets for those with reduced incomes mitigate financial blows. Historical data shows that higher progressive taxation, as seen in the 1950s with 4.1% annual growth, correlates with better economic performance compared to the lower growth rates of 3.2 in the 1980s when tax progressivity was reduced. Thus, progressive taxes benefit both workers and the overall economy.
+Q: resources are a source of conflict there is a strong connection between the presence of natural resources and conflict within africa natural resources especially those with a high commodity price such as diamonds are a useful means of funding rebellions and governments 1 the 1991 civil war in sierra leone became infamous for the blood diamonds which came from mines with forced slavery these diamonds were used to fund the revolutionary united front ruf for eleven years extending the blood shed continued conflict in the congo is also attributed to the control of mineral wealth 2 and exemplifies how resources have negatively impacted africa 1 pandergast 2008 2 kharlamov i africa s resource wars assume epidemic proportions global research 24 november 2014
+R: Natural resources are a source of conflict in Africa. High-value commodities like diamonds often fund rebellions and governments. The 1991 civil war in Sierra Leone, fueled by "blood diamonds" mined with forced labor, funded the Revolutionary United Front (RUF) for eleven years, prolonging violence. Similarly, ongoing conflict in the Congo is driven by control over mineral wealth, demonstrating the negative impact of resource wealth on African stability.
+Q: most universities are publically funded so should have to be open with their materials the united states university system is famously expensive and as a result it is probably the system in a developed country that has least public funding yet 346 8billion was spent mostly by the states on higher education in 2008 9 1 in europe almost 85 of universities funding came from government sources 2 considering the huge amounts of money spent on universities by taxpayers they should be able to demand access to the academic work those institutions produce even in countries where there are tuition fees that make up some of the funding for the university it is right that the public should have access to these materials as the tuition fees are being paid for the personal teaching time provided by the lecturers not for the academics publications moreover those who have paid for a university course would benefit by the materials still being available to access after they have finished university 1 caplan bruan correction total government spending on higher education library of economics and liberty 16 november 2012 2 vught f et al funding higher education a view across europe ben jongbloed center for higher education policy studies university of twente 2010
+R: Universities, being publicly funded, should provide open access to their academic materials. Despite the high costs of the U.S. university system, significant public funds are invested. In Europe, 85 of university funding comes from government sources. Taxpayers deserve access to the academic work produced with their money. Tuition fees cover teaching, not publications, and students would benefit from continued access to materials after graduation.
+Q: a strong leader is working in the state s best interest putin s authoritarian style is not a threat to democracy but rather a requirement for a successful and quicker transition having putin control the media is probably healthier than having it be controlled by a corrupt few that promote their personal interests rather than the interest of the state and thus those of the population at large democracy is a goal and while certain countries believe themselves to have achieved it they are constantly struggling to maintain it as a young democracy russia is still working towards defining its own version of democracy and finding what works best in its case
+R: A strong leader working in the state's best interest is essential. Putin's authoritarian style aids a quicker transition and is not a threat to democracy. His control of the media is healthier than control by a corrupt few who push personal interests. Democracy is a goal, and while some countries claim to have achieved it, they struggle to maintain it. Russia, as a young democracy, is still defining its own version.
+
+TREC-COVID
+Q: what are the impacts of covid 19 among african americans that differ from the rest of the u s population
+R: impacts of covid 19 among african americans different from rest of the u s population
+Q: what evidence is there related to covid 19 super spreaders
+R: evidence related to covid 19 super spreaders
+Q: what kinds of complications related to covid 19 are associated with hypertension
+R: complications related to covid 19 associated with hypertension
+
+
+TREC-COVID Narrative
+Q: seeking range of information about the sars cov 2 virus s origin including its evolution animal source and first transmission into humans
+R: sars cov 2 virus s origin including evolution animal source and first transmission into humans
+Q: looking for studies of the structure of the spike protein on the virus using any methods such as cryo em or crystallography
+R: studies of sars cov 2 spike protein structure using cryo em or crystallography
+Q: includes studies ranging from those focusing on genomic differences to global public health impacts but must draw direct comparisons between covid 19 and seasonal influenza
+R: comparative studies on genomic differences global health impacts between covid 19 and seasonal influenza
+Q: with the possibility of schools re opening while the covid 19 pandemic is still ongoing this topic is looking for evidence or projections on what the potential implications of this are in terms of covid 19 cases hospitalizations or deaths as well as other benefits or harms to re opening schools this includes both the impact on students teachers families and the wider community
+R: implications of reopening schools during ongoing covid 19 pandemic cases hospitalizations deaths benefits harms to students teachers families community
+
+Expansion
+Perform query expansion in the given queries. Try to enhance the query by including synonyms and related terms of the keywords of the query. Limit the expansion by only 1 to 2 related terms. Answer with only the expanded query nothing else. Here are some examples: 
+
+TREC-COVID
+Q: what are the transmission routes of coronavirus 
+R: transmission routes of covid 19 include airborne droplet and contact transmission
+Q: what are the initial symptoms of covid 19
+R: initial symptoms of covid 19 include fever cough fatigue headache and loss of taste or smell
+Q: does vitamin d impact covid 19 prevention and treatment
+R: vitamin d impact on covid 19 prevention and treatment includes its role in immune function respiratory health and potential benefits in reducing severity
+Q: what type of hand sanitizer is needed to destroy covid 19
+R: type of hand sanitizer needed to destroy covid 19 should contain at least 60 alcohol such as ethanol or isopropanol
+
+
+HotpotQA
+Q: what occupation do chris menges and aram avakian share
+R: what occupation do chris menges and aram avakian share cinematographer filmmaker director
+Q: in which year was the king who made the 1925 birthday honours born
+R: in which year was the king who made the 1925 birthday honours born king george V 1865
+Q: d1nz is a series based on what oversteering technique
+R: d1nz is a series based on what oversteering technique drifting powersliding
+Q: who is older annie morton or terry richardson
+R: who is older annie morton 1970 or terry richardson 1965 birthdate age comparison
+Q: when was poison s album shut up make love released
+R: when was poison s album shut up make love released 2000 release date
+Q: is karjiang higher than istor o nal
+R: is karjiang higher than istor o nal karjiang mountain highest peak tibetan plateau
+Q: where did the religion of mountain wolf woman originate
+R: where did the religion of mountain wolf woman originate Native American tribal spirituality indigenous religion
+Q: were scott derrickson and ed wood of the same nationality
+R: were scott derrickson american film director screenwriter and ed wood american filmmaker of the same nationality
+
+
+
+
+
+
