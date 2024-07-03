@@ -1,0 +1,2 @@
+python-terrier==0.10.1
+fast-forward-indexes==0.2.0
